@@ -8,7 +8,7 @@
 
 *Press → to start the presentation*
 
-> That, of course, works only in slide view. If you can read this, you are in the notes view!
+> That, of course, works only in slide view. If you can read this, you are in the notes view! (Unless you opened this file on GitHub. Please run _gulp_ on your machine and read it there!)
 >
 > Slide notes should be written as quotes.
 >
@@ -24,7 +24,7 @@
 
 # Introduction
 
-> Triple stars mean the end of a slide. (This will make more sense if you actually open the _.md_ file.)
+> Triple stars mean the end of a slide. (This will make more sense if you actually open the _.md_ file in a text editor.)
 
 * * *
 
@@ -49,13 +49,14 @@
 
 * * *
 
-## Your standard list
+## Your standard list example
 
 - The ```<!DOCTYPE>``` is really long in HTML 4.01
     - HTML5: not anymore!
 - Inside ```<html>```, ```<head>``` lets you set _meta stuff_
 - In ```<body>```, you can set **actual content**
-- If you use HTML in your slides, don't forget to utilize backticks(\`), unless you actually want HTML in your slide
+
+> If you want to show HTML code in your slides, don't forget to utilize backticks(\`), unless you actually want the HTML to _render_ in your slide
 
 <button style="margin-top: 8px; float:left; width:150px; height:100px; font-size:20px; " onclick="alert('Yay')">Like this!</button>
 
@@ -87,7 +88,7 @@
 
 * * *
 
-> ## You can make your slide's title notes-only by putting it in a quote, for, like really long texts
+> ## You can make your slide's title appear in the notes only, by putting it in a quote, for, like really long texts
 
 "It was much more effective simply to “support” those -webkit- prefixes that were the analogue of things we already supported; for example, we simply aliased -webkit-border-radius to border-radius.
 
@@ -100,6 +101,8 @@
 * * *
 
 ## Use custom HTML and CSS for complicated stuff
+
+> This will completely break in GitHub's MarkDown view, but will work in the generated slides / notes nicely.
 
 <div style="width: 45%; float: left;">
 ```JavaScript
@@ -134,7 +137,7 @@ math = {
 ```
 </div>
 
-> Feel free to put those in an external CSS if ```style`` attributes make you shiver.
+> Feel free to put those in an external CSS if `style` attributes make you shiver.
 
 * * *
 
