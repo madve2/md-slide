@@ -1,0 +1,96 @@
+/* Based on pandoc's default output */
+
+/* .er rule is commented out, as sometimes valid CSS is marked as invalid incorrectly */
+
+code
+{
+    white-space: pre-wrap;
+}
+table.sourceCode,
+tr.sourceCode,
+td.lineNumbers,
+td.sourceCode
+{
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+
+    border: none;
+}
+table.sourceCode
+{
+    line-height: 100%;
+
+    width: 100%;
+}
+td.lineNumbers
+{
+    padding-right: 4px;
+    padding-left: 4px;
+
+    text-align: right;
+
+    color: #aaa;
+    border-right: 1px solid #aaa;
+}
+td.sourceCode
+{
+    padding-left: 5px;
+}
+code > span.kw
+{
+    font-weight: bold;
+
+    color: #007020;
+}
+code > span.dt
+{
+    color: #902000;
+}
+code > span.dv
+{
+    color: #40a070;
+}
+code > span.bn
+{
+    color: #40a070;
+}
+code > span.fl
+{
+    color: #40a070;
+}
+code > span.ch
+{
+    color: #4070a0;
+}
+code > span.st
+{
+    color: #4070a0;
+}
+code > span.co
+{
+    font-style: italic;
+
+    color: #60a0b0;
+}
+code > span.ot
+{
+    color: #007020;
+}
+code > span.al
+{
+    font-weight: bold;
+
+    color: #f00;
+}
+code > span.fu
+{
+    color: #06287e;
+}
+/*code > span.er
+{
+    font-weight: bold;
+
+    color: #f00;
+}*/

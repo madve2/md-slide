@@ -1,0 +1,4 @@
+body.inSlideShow .slide {
+  transform-origin: 0 0;
+  position: absolute;
+}

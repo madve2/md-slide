@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'BariolRegular';
+	src: url('./BariolRegular.eot');
+	src: local('BariolRegular'), url('./BariolRegular.woff') format('woff'), url('./BariolRegular.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_25647">Text with this font applied</p> */
+.fontsforweb_fontid_25647 {
+	font-family: 'BariolRegular' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

@@ -1,0 +1,33 @@
+/* Footer styling for public handouts */
+footer {
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    font-size: 15px;
+}
+footer p {
+    margin: 5px;
+    line-height: 1.8em;
+    width: 100%;
+    text-align: center;
+}
+footer a, footer a:active, footer a:visited {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+body {
+    padding-bottom: 70px;
+}
+
+@media print { 
+ footer { display: none; } 
+}
