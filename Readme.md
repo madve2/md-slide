@@ -1,17 +1,21 @@
 # md-slide
 
-Opinionated alternative to reveal.js – create slide decks and public handouts from MarkDown files, with a typical PowerPointish look. I created it for some of my software development courses at the Budapest University of Technology and Economics, [Department of Automation and Applied Informatics](https://www.aut.bme.hu/en/default.aspx), but it might be useful for anyone else as well.
+Opinionated alternative to reveal.js – create slide decks and public handouts from MarkDown files, with a typical PowerPointish look.
+
+I created it for some of my software development courses at the Budapest University of Technology and Economics, [Department of Automation and Applied Informatics](https://www.aut.bme.hu/en/default.aspx) – but it might be useful for anyone else as well.
+
+![](screenshot.png)
 
 ## Setup
 - Install [Pandoc](http://pandoc.org/installing.html)
 - Install node.js
 - `npm install -g gulp`
-- `npm install` (inside project folder)
+- `npm install` (inside the project folder)
 
 ## Getting started
-- Run `gulp` inside project folder
+- Run `gulp` inside the project folder
     - If you just cloned this repo, and installed everything properly, this should open the demonstration slide show and its notes in two separate Chrome tabs
-    – Check out both so you can master creating _md-slide_ decks!
+    - Check out both so you can master creating _md-slide_ decks!
 - Create .md files in the _content_ folder
     - See _demo.md_ as an example
 - Open http://localhost:5000/[yourfile]-internal-slides.html and/or http://localhost:5000/[yourfile]-internal-notes.html in a browser.
